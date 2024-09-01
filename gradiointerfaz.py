@@ -1,13 +1,12 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Jun 11 08:13:23 2024
+Created on Sun Sep  1 14:58:09 2024
 
 @author: emili
 """
 
 import gradio as gr
 from funciones import *
-import pandas as pd
 
 estilos = """
 
@@ -447,6 +446,6 @@ with gr.Blocks(css= estilos,theme= theme) as interfaz:
        )
 
         buscar_button.click(fn=mostrar_informe_resaltado, inputs=numero_os_input, outputs=[leyendas_output, informe_output])      
-        
+            
 if __name__ == "__main__":
-    interfaz.launch(share=True)
+    interfaz.launch()

@@ -1,0 +1,12 @@
+pandas
+numpy
+scipy
+matplotlib
+unidecode
+gradio_client
+gradio
+openpyxl
+xlrd>=2.0.1
+xlwt>=1.3.0
+regex
+nltk
