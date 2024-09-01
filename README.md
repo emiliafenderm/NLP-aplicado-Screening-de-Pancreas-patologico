@@ -19,8 +19,8 @@ A continuación se detallan los pasos para configurar el entorno y ejecutar los 
 ## Ejecución de Scripts
 
 ## Instrucciones para la interfaz Gradio
-gradiointerfaz.py: Proporciona una interfaz gráfica para interactuar con el sistema.
-Para utilizar la interfaz, insertar el archivo DatasetPrueba.xls
+gradiointerfaz.py: Proporciona una interfaz gráfica para interactuar con el sistema. Esta interfaz utiliza funciones del archivo funciones.py para evaluar calidad, estadísticas, realizar búsquedas y realizar el screening de páncreas patológico.
+Para utilizar la interfaz, insertar el archivo DatasetPrueba.xls.
 
 ## Importante sobre DatasetPrueba.xls
 El archivo DatasetPrueba incluido en este repositorio es solo para fines de prueba. No contiene información confidencial ni sensible y está diseñado únicamente como un ejemplo para mostrar cómo funcionan los scripts y la interfaz. Los resultados generados a partir de este dataset son ficticios y no deben considerarse como datos reales o utilizables en un contexto clínico o de investigación.
